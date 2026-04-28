@@ -1,44 +1,38 @@
-# IT1214 Warehouse Inventory System
+# IT1214-Warehouse-Inventory-System
 
-## 📌 Project Description
-This project is a simple Warehouse Inventory System developed using Java.  
-It is a console-based application that helps manage items in a warehouse.
+ Project Description
+This is a simple Java console-based Warehouse Inventory System.
+It allows users to:
+- Add items
+- View items
+- Update item quantity
+- Delete items
 
-Users can:
-- Add new items
-- View all items
-- Update item details
-- Delete items from the inventory
+ How to Run
 
----
+1. Compile all files:
+   javac *.java
 
-## ⚙️ Technologies Used
-- Java
-- OOP Concepts (Classes, Objects, ArrayList)
+2. Run the program:
+   java Main
 
----
+ Sample Output
 
-## ▶️ How to Run the Program
-1. Open the project in any Java IDE (NetBeans, IntelliJ, Eclipse)
-2. Compile the program
-3. Run the `Main` class
-4. Use the menu to manage inventory
-
----
-
-## 💻 Sample Output
-
-===== Warehouse Inventory System =====
-
-Add Item
-View Items
-Update Item
-Delete Item
-Exit
-
+--- Warehouse Inventory System ---
+1. Add Item
+2. View Items
+3. Update Item
+4. Delete Item
+5. Exit
 Enter choice: 1
-Enter item name: Apple
-Enter quantity: 10
+
+Enter ID: 101
+Enter Name: Laptop
+Enter Quantity: 10
+
 Item added successfully!
 
+--- Warehouse Inventory System ---
+Enter choice: 2
 
+ID: 101 | Name: Laptop | Quantity: 10
